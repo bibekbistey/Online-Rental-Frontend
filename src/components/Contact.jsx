@@ -8,9 +8,9 @@ const Contact = () => {
         Contact <span className="font-normal border-b border-black">With Us</span>
       </h1>
       <h2 className="text-center font-mono text-lg">
-        Ready to Make a Move? Let's Build Your
+        Ready to Make a Move? Let's Find Better
       </h2>
-      <h2 className="text-center font-mono text-lg mb-6">Future Together</h2>
+      <h2 className="text-center font-mono text-lg mb-6">Lifestyle Together</h2>
       
       {/* Form Section */}
       <div>

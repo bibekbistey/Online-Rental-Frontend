@@ -61,7 +61,7 @@ const Project = () => {
 
   return (
     <div className='mx-auto py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden'>
-      <motion.h1 initial={{opacity:0, y:50}} whileInView={{opacity:1, y:0}} transition={{duration:0.5,delay:0.2}} className='font-bold text-3xl text-center'>Projects <span className='font-normal text-3xl border-b border-black'>Completed</span></motion.h1>
+      <motion.h1 initial={{opacity:0, y:50}} whileInView={{opacity:1, y:0}} transition={{duration:0.5,delay:0.2}} className='font-bold text-3xl text-center'>Available <span className='font-normal text-3xl border-b border-black'>Properties</span></motion.h1>
       <motion.p initial={{opacity:0, y:50}} whileInView={{opacity:1, y:0}} transition={{duration:0.5,delay:0.5}}className='text-xl font-light text-center mt-4'>Crafting, Building Legacies-Exploree</motion.p>
       <motion.p initial={{opacity:0, y:50}} whileInView={{opacity:1, y:0}} transition={{duration:0.5,delay:0.5}}className='text-xl font-light text-center'>Our Portfolio</motion.p>
 
