@@ -9,7 +9,7 @@ const Homepage = () => {
             style={{backgroundImage:"url('/bg1.jpg')"}}>
         <div className='mx-auto text-center px-6 py-4 md:px-20 lg:px-32'>
             <motion.div initial={{opacity:0, y:100}} whileInView={{opacity:1, y:0}} transition={{duration:1}}
-             className='font-serif text-white font-bold'>
+             className='font-serif text-[white] font-bold'>
                 <h1 className='text-5xl sm:text-6xl md:text-[82px]  max-w-3xl'>Your Dream Home, Just a Click Away</h1>
             </motion.div>
             <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:1}}
