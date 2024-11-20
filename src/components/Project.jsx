@@ -74,7 +74,7 @@ const Project = () => {
           {house.map((h,index)=>(
             <motion.div initial={{opacity:0, x:-50}} whileInView={{opacity:1, x:0}} transition={{duration:1,delay:index*0.2}} key={index} className='mt-5 mx-auto relative'>
               <img className='max-w-[500px] h-[60vh] mb-14' src={h.image}></img>
-              <motion.div whileHover={{scale:0.9}} className='absolute left-0 right-0 bottom-5 flex justify-center'>
+              <motion.div whileHover={{scale:0.9}} className='absolute left-0 right-0  bottom-5 flex justify-center'>
                 <div className='inline-block text-center bg-white w-[250px] px-4 py-2 shadow-md'>
                 <h2 className='text-xl font-semibold text-gray-800'>{h.name}</h2>
                 <p className='text-md font-light text-gray-600'>{h.location}</p>

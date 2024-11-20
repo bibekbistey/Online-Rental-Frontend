@@ -1,5 +1,6 @@
 import React from 'react'
 import house from "../assets/house.png"
+import home from "../assets/home.jpg"
 import {motion} from "framer-motion"
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
         <div className='max-w-[1200px] h-full mx-auto md:flex md:justify-between mt-24'>
             {/* -------image------- */}
             <motion.div initial={{opacity:0, x:-100}} whileInView={{opacity:1, x:0}} transition={{duration:1.5,delay:0.6}}  className='md:h-[60vh]  flex justify-center md:mx-auto'>
-                <img className='w-1/2 md:w-[300px] md:h-auto' src={house} ></img>
+                <img className='w-1/2 md:w-[300px] md:h-auto rounded-xl' src={home} ></img>
             </motion.div>
             {/* --------text-part----------- */}
             <div>
@@ -35,7 +36,7 @@ const About = () => {
                     </motion.div>
 
                 </motion.div>
-                <motion.div initial={{opacity:0, y:100}} whileInView={{opacity:1, y:0}} transition={{delay:2.7, duration:0.5}} className='w-[400px] mx-auto mt-5'>
+                <motion.div initial={{opacity:0, y:100}} whileInView={{opacity:1, y:0}} transition={{delay:2.0, duration:0.8}} className='w-[400px] mx-auto mt-5'>
                     <p>eRental connects you to exceptional homes and spaces, making your dream living experience a reality</p>
                     <button className='p-2 bg-blue-200 rounded-xl mt-5'>Learn More</button>
                 </motion.div>
